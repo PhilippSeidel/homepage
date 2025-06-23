@@ -239,7 +239,7 @@ const Blog: React.FC = () => {
                             minute: '2-digit'
                             })}</em>
                         </p>
-                        <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+                        <div className="content-wrapper" dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
                       </li>
                     }</main>
                   </div>

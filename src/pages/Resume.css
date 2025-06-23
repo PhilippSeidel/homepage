@@ -63,3 +63,7 @@
 .bi-skill {
   color: var(--component-bg-dark);
 }
+
+p {
+  line-height: 2.0;
+}

@@ -240,7 +240,7 @@ const Projects: React.FC = () => {
                                     )}
                                 </div>
                                 <ReadMoreElement>
-                                    <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+                                    <div className="content-wrapper" dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
                                 </ReadMoreElement>
                             </li>
                             }</main>
